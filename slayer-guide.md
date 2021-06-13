@@ -73,6 +73,13 @@ The word default is in brackets [] because it's the default choice, you don't ne
 ```
 This automatically kills the boss variant of the slayer task, or if one doesn't exist, the objectively 'best' monster of the category:
 ```
+Autoslay now supports 'ehp' aka 'efficient' mode, which will use the most efficient method available. 
+However, if you don't have the requirements, you will get an error and have to +k manually.
+This is to prevent doing a task you didn't mean to do.
+```
++autoslay ehp --save
++as
+```
 +autoslay boss
 ```
 You can use the --save flag with +autoslay to make that option the new default.
